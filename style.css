@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+
+
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #151515;
+}
+
+#container{
+   display: flex;
+   justify-content: center;
+    align-items: center;
+   gap: 5px;  
+   color: #F9F5F6;
+   font-size: 40px;
+}
+
+#container .clock{
+    position:relative;
+    width: 70px;
+    height:70px;
+     display:flex; 
+    justify-content: center;
+    align-items:center;
+}
+
+
+
+
+#colon{
+    padding-left: 20px;
+}
+
+
+.main{
+    display:flex;
+     padding-top: 25px; 
+    padding-left: 10px; 
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 500px;
+    background-color: #202020;
+    color: #fff;
+   
+  }
+    
+
+    
+  .main{
+    font-size: 6.2rem;
+    animation: pulsate 1.5s infinite alternate;  
+    border: 0.2rem solid #fff;
+    border-radius: 50%;
+    padding: 0.4em;
+    box-shadow: 0 0 .2rem #fff,
+              0 0 .2rem #fff,
+              0 0 2rem #bc13fe,
+              0 0 0.8rem #bc13fe,
+              0 0 2.8rem #bc13fe,
+              inset 0 0 1.3rem #bc13fe; 
+  }
+  .main:hover{
+    border-radius: 500px;
+    padding: 0.4em;
+    box-shadow: 0 0 .2rem #fff,
+              0 0 .2rem #fff,
+              0 0 2rem #fe13db,
+              0 0 0.8rem #f91ce3,
+              0 0 2.8rem #f519fd,
+              inset 0 0 1.3rem #fb08c6; 
+              
+              
+
+   
+  
+  }
+
+
+  
+  
